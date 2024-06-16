@@ -17,7 +17,7 @@ char    **ft_split(char *str);
 
 #include <stdlib.h>
 
-char	ft_strncpy(char *s1, char *s2, int n)
+char	*ft_strncpy(char *s1, char *s2, int n)
 {
 	int i = 0;
 	while (i < n && s2[i])
@@ -31,9 +31,7 @@ char	ft_strncpy(char *s1, char *s2, int n)
 
 int	ft_is_space(char c)
 {
-	if (c == ' ' || c == '\t' || c =='\n')
-		return (1);
-	return (0);
+	return (c >= 32);
 }
 
 char	**ft_split(char *str)
