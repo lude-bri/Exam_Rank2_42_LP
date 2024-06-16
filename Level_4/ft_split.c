@@ -31,7 +31,7 @@ char	*ft_strncpy(char *s1, char *s2, int n)
 
 int	ft_is_space(char c)
 {
-	return (c >= 32);
+	return (c <= 32);
 }
 
 char	**ft_split(char *str)
