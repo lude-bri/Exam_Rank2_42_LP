@@ -47,7 +47,7 @@ int ft_strlen(char *str)
 
 int main(int ac, char **av)
 {
-	int word_start, word_end, len, i;
+	int word_start, word_end, len, space;
 
 	if (ac == 2)
 	{
@@ -60,10 +60,10 @@ int main(int ac, char **av)
 			while (!ft_isspace(av[1][len]) && av[1][len])
 				--len;
 			word_start = (len + 1);
-			i = word_start;
+			space = word_start;
 			while (word_start <= word_end)
 				write(1, &av[1][word_start++], 1);
-			if (i != 0)
+			if (space)
 				write(1, " ", 1);
 		}
 	}
