@@ -21,17 +21,15 @@ char *ft_itoa(int nbr)
 	int n = nbr;
 	int len = 0;
 	if (nbr <= 0)
-	{
 		len++;
-    	}
 	while (n) 
 	{
 		n /= 10;
 		len++;
 	}
 	char *result = (char *)malloc(sizeof(char) * (len + 1));
-	if (result == NULL) 
-		return NULL;
+	if (!result) 
+		return (NULL);
 	result[len] = '\0';
 	if (nbr == 0)
 	{
