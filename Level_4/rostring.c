@@ -7,32 +7,40 @@ int ft_is_space(char c)
 	return ((c == ' ') || (c == '\t'));
 }
 
-int		main(int ac, char **av)
+int ft_is_space(char c)
 {
-	int		i;
-	int		word_start;
+	return ((c == ' ') || (c == '\t'));
+}
 
-	if (ac > 1)
+int	main(int ac, char **av)
+{
+	if (ac >= 2)
 	{
-		i = 0;
-		while (ft_is_space(av[1][i]))
-			i++;
+		char *str = av[1];
+		int i = 0;
+		int word_start = 0;
+		int word_end = 0;
+
+		while (ft_is_space(str[i]))
+			++i;
 		word_start = i;
-		while (av[1][i] && !ft_is_space(av[1][i]))
-			i++;
-		while (av[1][i])
+		while (!ft_is_space(str[i]) && str[i])
+			++i;
+		word_end = i;
+		while (ft_is_space(str[i]))
+			++i;
+		while (str[i])
 		{
-			if (av[1][i] && !ft_is_space(av[1][i]) && ft_is_space(av[1][i - 1]))
+			if (!ft_is_space(str[i]) && ft_is_space(str[i - 1]) && str[i])
 			{
-				while (av[1][i] && !ft_is_space(av[1][i]))
-					write(1, &av[1][i++], 1);
-				write(1, " ", 1);
+				while (!ft_is_space(str[i]) && str[i])
+					write (1, &str[i++], 1);
+				write (1, " ", 1);
 			}
 			i++;
 		}
-		while (av[1][word_start] && !ft_is_space(av[1][word_start]))
-			write(1, &av[1][word_start++], 1);
+		while (word_start < word_end)
+			write (1, &str[word_start++], 1);
 	}
-	write(1, "\n", 1);
+	write (1, "\n", 1);
 	return (0);
-}
