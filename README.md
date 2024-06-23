@@ -16,7 +16,7 @@ ___
 
 </div>
 
-# About
+# About 📜
 
 This is the first exam in the Common Core at 42 schools! Don’t worry, it is normally very tricky, especially because there are a lot of different questions. I’m here to help you with an overview of the exam!
 
@@ -24,7 +24,7 @@ Most of the questions are based on the first project developed, `Libft`! The exa
 
 ---
 
-## Tips!
+## Tips! 💡
 
 Point a terminal to your `~/` directory and add the following lines to your `.zshrc` and `.vimrc` files.
 
@@ -65,7 +65,7 @@ runtime! ftplugin/man.vim " Open man pages in Vim
 ```
 ___
 
-## Levels and Topics
+## Levels and Topics 📝
 
 The Rank 2 Exam has four levels, comprises of several exercises each. Each level, naturally, will be more challanging then the last one.
 
@@ -84,7 +84,7 @@ ___
 
 <div align="center">
 
-## Exam Exercises
+## Exam Exercises 📚
 
 | Level 1       | Level 2 | Level 3 | Level 4 |
 | -------       | ------- | ------- | ------- |
