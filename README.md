@@ -8,10 +8,8 @@
 
 * [About](#about)
 * [Tips](#tips)
-* [Exam Exercises 🧪](#exam-exercises-)
-  * [Exam Rank 2](#exam-rank-2)
-  * [Exam Rank 3](#exam-rank-3)
-  * [License :copyright:](#license-copyright)
+* [Exam Exercises](#exam-exercises-)
+* [License :copyright:](#license-copyright)
 
 <!-- mtoc-end -->
 ___
@@ -75,24 +73,19 @@ The topics in the exam can be summarized in four: **String Manipulation**, **Lin
 
 In the following table you can see how this is organized:
 
----2
+
 | Topics      | Level 1    | Level 2     | Level 3    | Level 4 |
-| ----------  | ------------ | --------- | ----------- | -------- |
-
+| :----------: | ------------ | --------- | ----------- | -------- |
+_String Manipulations_| `first_word` `ft_strcpy` `ft_strlen` `ft_putstr` `ft_swap` `repeat_alpha` `rev_print` `rot_13` `rotone` `search_and_replace` `ulstr`| `alpha_mirror` `camel_to_snake` `snake_to_camel` `last_word` `ft_atoi` `ft_strcspn` `ft_strdup` `ft_strpbrk` `ft_strrev` `ft_strspn` `inter` `union` `wd_match`| `epur_str` `expand_str` `ft_atoi_base` `hidenp` `printhex` `rstr_capitalizer` `str_capitalizer` | `flood_fill` `ft_itoa` `ft_split` `rev_wstr` `rostring` `sort_in_tab`
+_*Linked Lists*_  | | | `ft_list_size` | `ft_list_forearch` `ft_list_remove_if` `sort_list` |
+_Math Operations_ | `fizzbuzz` | `is_power_of_2` `do_op` `max` | `add_prime_sum` `ft_range` `ft_rrange` `lcm` `paramsum` `pgcd` `tab_mult` | `fprime`
+_Bitwise Operations_ | |`print_bits` `reverse_bits` `swap_bits` |
 ___
 
-## Exam Exercises 🧪
+<div align="center">
 
-### Exam Rank 2
+## Exam Exercises
 
-The Rank 2 Exam has four levels, comprised of several exercises each. 
-
-> <kbd>Tip</kbd> 
->
-> `ft_isspace` is a particularly helpful function when solving a lot of the exercises through every level of the exam.
-
-Here follow the solutions to all exam exercises (as of January 2024), including all test code and `.gdbinit` files developed to test and study each exercise. 
-___
 | Level 1       | Level 2 | Level 3 | Level 4 |
 | -------       | ------- | ------- | ------- |
 | [first_word](https://github.com/PedroZappa/42ExamPrep/tree/main/Rank_2/Level_1/first_word) | [alpha_mirror](https://github.com/PedroZappa/42ExamPrep/tree/main/Rank_2/Level_2/alpha_mirror) | [add_prime_sum](https://github.com/PedroZappa/42ExamPrep/tree/main/Rank_2/Level_3/add_prime_sum) | [flood_fill](https://github.com/PedroZappa/42ExamPrep/tree/main/Rank_2/Level_4/flood_fill) |
@@ -117,26 +110,13 @@ ___
 |          | [wdmatch](https://github.com/PedroZappa/42ExamPrep/tree/main/Rank_2/Rank_2/Level_2/wdmatch) |
 ___
 
-### Exam Rank 3
+</div>
 
-For Rank 3 Exam you will have to solve a "mini" `ft_printf` or `get_next_line` exercise. 
-
-___
-| `ft_print`       | `get_next_line` |
-| -------       | ------- |
-| [ft_printf](https://github.com/PedroZappa/42_ExamPrep/tree/main/Rank_3/ft_printf) | [get_next_line](https://github.com/PedroZappa/get_next_line) |
-
-> [!Warning]
->
-> I'll be updating this repo with more tips and resources as I progress through the Common Core.
-
-Good luck with the exams!
-
-<div align="center">
+<div align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=0ABAB5&text=Good%20Luck!&section=footer&fontAlign=52&fontAlignY=55&fontColor=fcf3f2" />
 
 ### License :copyright:
 
 This work is published under the terms of <a href="https://github.com/PedroZappa/ft_printf/blob/master/LICENSE">42 Unlicense</a>.
 
 </div>
-<p align="right">(<a href="#readme-top">get to top</a>)</p>
+<p align="right">(<a href="#readme-top">up</a>)</p>
