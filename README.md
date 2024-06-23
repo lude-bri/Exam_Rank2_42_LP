@@ -20,7 +20,7 @@ ___
 
 This is the first exam in the Common Core at 42 schools! Don’t worry, it is normally very tricky, especially because there are a lot of different questions. I’m here to help you with an overview of the exam!
 
-Most of the questions are based on the first project developed, Libft! The exam addresses essential topics in C, such as string manipulation, lists, math, and even bitwise operations! The important thing is not only to study all the questions, rather is to realize very well the topics mentioned above!
+Most of the questions are based on the first project developed, `Libft`! The exam addresses essential topics in C, such as string manipulation, lists, math, and even bitwise operations! The important thing is not only to study all the questions, rather is to realize very well the topics mentioned above!
 
 ---
 
