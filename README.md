@@ -6,14 +6,13 @@
 
 <!-- mtoc-start -->
 
-* [About](#about)
-* [Tips](#tips)
+* [About](#about-)
+* [Tips](#tips-)
 * [Exam Exercises](#exam-exercises-)
 * [License :copyright:](#license-copyright)
 
 <!-- mtoc-end -->
-___
-
+---
 </div>
 
 # About 📜
@@ -51,17 +50,15 @@ syntax on
 set mouse=a	" Enable mouse
 set noswapfile	" Disable swap files
 
-set ruler
-set number
-set relativenumber
+set ruler  " Displays the cursor position (line and column) in the status line
+set number " Shows line numbers on the left side of the text
+set relativenumber " Shows line numbers relative to the current line, except for the current line itself, which shows its absolute number
 
-set tabstop=4
-set shiftwidth=4
+set tabstop=4 " Sets the width of a tab character to 4 spaces
+set shiftwidth=4 " Sets the width of auto-indent to 4 spaces
 
-set autoindent
-set smartindent
-
-runtime! ftplugin/man.vim " Open man pages in Vim
+set autoindent " Enables automatic indentation
+set smartindent " Enables smart indentation for programming
 ```
 ___
 
