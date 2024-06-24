@@ -1,5 +1,5 @@
 <a name="readme-top"></a>
-<div align="center"> <img src="https://capsule-render.vercel.app/api?type=rounded&height=100&color=0ABAB5&text=Exam_Rank02&section=header&fontAlign=52&fontAlignY=55&fontColor=fcf3f2" />
+<div align="center"> <img src="https://capsule-render.vercel.app/api?type=cylinder&height=200&color=0ABAB5&text=Exam_Rank02&fontAlignY=62&fontAlign=50&fontColor=fcf3f2&animation=fadeIn" />
 
 
 ## Table of Contents
