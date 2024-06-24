@@ -113,7 +113,7 @@ ___
 
 ### License :copyright:
 
-This work is published under the terms of <a href="https://github.com/PedroZappa/ft_printf/blob/master/LICENSE">42 Unlicense</a>.
+This work is published under the terms of <a href="https://github.com/lude-bri/42_Common_Core/blob/main/LICENSE.md">42 Unlicense</a>.
 
 </div>
 <p align="right">(<a href="#readme-top">up</a>)</p>
